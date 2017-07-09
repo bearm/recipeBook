@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
 
-import { DropdownDirective } from "./dropdown.directive";
-
 @Component({
   moduleId: module.id,
   selector: 'rb-header',
