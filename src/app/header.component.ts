@@ -1,9 +1,17 @@
-import { Component } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
+
+import { DropdownDirective } from "./dropdown.directive";
 
 @Component({
+  moduleId: module.id,
   selector: 'rb-header',
-  templateUrl: './header.component.html'
+  templateUrl: 'header.component.html'
 })
-export class HeaderComponent {
+export class HeaderComponent implements OnInit {
+
+  constructor() {}
+
+  ngOnInit() {
+  }
 
 }

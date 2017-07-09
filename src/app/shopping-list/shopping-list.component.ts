@@ -1,12 +1,15 @@
 import { Component, OnInit } from '@angular/core';
+import { Ingredient } from "../shared";
 
 @Component({
+  moduleId: module.id,
   selector: 'rb-shopping-list',
-  templateUrl: './shopping-list.component.html'
+  templateUrl: 'shopping-list.component.html'
 })
 export class ShoppingListComponent implements OnInit {
+  items: Ingredient[] = [];
 
-  constructor() { }
+  constructor() {}
 
   ngOnInit() {
   }
